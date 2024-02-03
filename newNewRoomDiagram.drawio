@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-03T13:00:38.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ProDn38HxMTVW0mUYG6m" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-03T13:04:44.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Fowv7COJasL7ZDCdwWjB" version="23.1.0" type="github">
   <diagram name="Page-1" id="O8G4t7uO2o9kU40y7iQ7">
     <mxGraphModel dx="1984" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="v7Y28q6XLG3SF74MW_tv-7" value="Set &lt;i&gt;Closet Area&lt;/i&gt;&amp;nbsp;to &lt;i&gt;Result&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-125" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v7Y28q6XLG3SF74MW_tv-9" value="Set &lt;i&gt;Total Area&lt;/i&gt;&amp;nbsp;to &lt;i&gt;Main Area &lt;/i&gt;* &lt;i&gt;Closet Area&lt;/i&gt;&amp;nbsp;- &lt;i&gt;Free Area&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="v7Y28q6XLG3SF74MW_tv-9" value="Set &lt;i&gt;Total Area&lt;/i&gt;&amp;nbsp;to &lt;i&gt;Main Area +&lt;/i&gt;&amp;nbsp;&lt;i&gt;Closet Area&lt;/i&gt;&amp;nbsp;- &lt;i&gt;Free Area&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v7Y28q6XLG3SF74MW_tv-10" value="Calculate Free Area" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
@@ -272,7 +272,7 @@
             <mxPoint x="570" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2af5eVrB1EE8TtCLqbym-1" value="Are there Windows and Doors" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2af5eVrB1EE8TtCLqbym-1" value="Are there Windows and&lt;br&gt;/ or Doors" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="67.5" y="520" width="95" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2af5eVrB1EE8TtCLqbym-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2af5eVrB1EE8TtCLqbym-6">
