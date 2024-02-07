@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T19:25:53.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.0" etag="cP2K99QN2RCW9ArtHptK" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T19:37:38.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2BbLE8sLh3UKvNSKcrdX" version="23.1.0" type="github">
   <diagram name="Page-1" id="r_xcBk4T4HuZNE7pjFt7">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0A9_d4DScJRTu_wTlqR-1" target="R0A9_d4DScJRTu_wTlqR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-1" value="&lt;i&gt;Deck,&lt;br&gt;Number of Cards&lt;br&gt;&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0A9_d4DScJRTu_wTlqR-2" target="R0A9_d4DScJRTu_wTlqR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0A9_d4DScJRTu_wTlqR-3" target="R0A9_d4DScJRTu_wTlqR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-3" value="Set &lt;i&gt;Players Hand&lt;/i&gt;&amp;nbsp;to number of cards in Player 2&#39;s hand" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R0A9_d4DScJRTu_wTlqR-4" target="R0A9_d4DScJRTu_wTlqR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-4" value="Take a card from &lt;i&gt;Deck&lt;/i&gt;&amp;nbsp;and move it to &lt;i&gt;Players Hand&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R0A9_d4DScJRTu_wTlqR-5" target="R0A9_d4DScJRTu_wTlqR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R0A9_d4DScJRTu_wTlqR-5" target="R0A9_d4DScJRTu_wTlqR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-5" value="Is &lt;i&gt;Players Hand&lt;/i&gt;&amp;nbsp;&lt;br&gt;equal to &lt;i&gt;Number of Cards&lt;/i&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-6" value="Stop" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R0A9_d4DScJRTu_wTlqR-8" target="R0A9_d4DScJRTu_wTlqR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-10" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-12" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R0A9_d4DScJRTu_wTlqR-21" target="R0A9_d4DScJRTu_wTlqR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0A9_d4DScJRTu_wTlqR-21" value="Set &lt;i&gt;Number of Cards&lt;/i&gt;&amp;nbsp;to input from Player 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
