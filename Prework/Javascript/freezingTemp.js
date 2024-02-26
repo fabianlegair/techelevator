@@ -130,7 +130,7 @@ console.log(requiresDailyCheck( { quizAlert: false, hwAlert: false, absences: 0,
 console.log(requiresDailyCheck( { quizAlert: true, hwAlert: false, absences: 0, lastExam: 70} ));
 console.log(requiresDailyCheck( { quizAlert: false, hwAlert: false, absences: 1, lastExam: 70} ));
 console.log(requiresDailyCheck( { quizAlert: false, hwAlert: false, absences: 0, lastExam: 60} ));
-
+*/
 
 function flagHomework(score) {
     let standardScore = 70;
@@ -144,4 +144,3 @@ console.log(flagHomework( { hw1: 100, hw2: 90, hw3: 70, hw4: 80}));
 console.log(flagHomework( { hw1: 80, hw2: 70, hw3: 60, hw4: 70}));
 console.log(flagHomework( { hw1: 0, hw2: 100, hw3: 100, hw4: 100}));
 console.log(flagHomework( { hw1: 60, hw2: 70, hw3: 70, hw4: 60}));
-*/ 
