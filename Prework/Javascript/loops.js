@@ -115,7 +115,7 @@ function issueFireAlert(forecast) {
 issueFireAlert([noAlertDay1, noAlertDay2]);
 issueFireAlert([noAlertDay1, alertDay3, alertDay4]);
 issueFireAlert([alertDay4, alertDay3]);
-*/
+
 
 const forecasts = [
     { date: '2023/05/01', city: 'Oklahoma City', 
@@ -143,3 +143,84 @@ return cityNames;
 
 console.log(getForecastCities(forecasts));
 
+
+const precipitationPhoenixAugust2022 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] ;
+const precipitationSeattleJanuary2023 = [0.5, 0.2, 0.8, 0, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0.3, 0.6, 0.9, 0, 0, 0, 0, 0.4, 0, 0, 0, 0, 0.7, 0, 0, 0, 0.5, 0.2];
+const precipitationClevelandMay2022 = [0, 0, 0, 0.1, 0, 0, 0, 0, 0, 0, 0.3, 0.2, 0.1, 0.4, 0, 0, 0, 0, 0, 0.5, 0.1, 0, 0, 0.2, 0.3, 0, 0, 0, 0.4, 0.2, 0];
+
+function getLongestDryStreak(rainData) {
+    let currentValue = 0;
+    let currentStreak = 0;
+    let highestStreak = 0;
+
+    for (let counter = 0; counter < rainData.length; counter++) {
+        currentValue = rainData[counter];
+        if (currentValue === 0) {
+            currentStreak += 1;
+            if (currentStreak === rainData.length) {
+                highestStreak = currentStreak;
+            }
+        }
+        else if (currentValue != 0) {
+            if (currentStreak >= highestStreak) {
+                highestStreak = currentStreak;
+                currentStreak = 0; 
+            } else {
+                currentStreak = 0;
+            }
+        }
+    }
+
+    return highestStreak;
+}
+console.log(getLongestDryStreak(precipitationPhoenixAugust2022));
+console.log(getLongestDryStreak(precipitationSeattleJanuary2023));
+console.log(getLongestDryStreak(precipitationClevelandMay2022));
+
+
+function createDeck(suits, ranks) {
+    let cards = [];
+    for (let iSuits = 0; iSuits < suits.length; iSuits++) {
+        for (let iRanks = 0; iRanks < ranks.length; iRanks++) {
+            let newCard = {
+                suit: suits[iSuits],
+                rank: ranks[iRanks]
+        }
+        cards.push(newCard);
+        }
+    }
+
+    return cards;
+}
+
+console.log(createDeck(['clubs', 'spades'], ['2', '3']))
+
+
+function dealHand(numCards) {
+    let hand = [];
+    for (let i = hand.length; i < numCards; i++) {
+        hand.push(drawCard());
+    }
+    
+    return hand;
+}
+
+
+function drawCard() {
+    
+}
+
+function drawUntilPlayable(targetCard) {
+    const DRAWN_CARDS = [];
+
+    while (true) {
+        const DRAWN_CARD = drawCard();
+        DRAWN_CARDS.push(DRAWN_CARD);
+
+        if (DRAWN_CARD.rank === targetCard.rank || DRAWN_CARD.suit === targetCard.suit) {
+            break;
+        }              
+    }
+
+    return DRAWN_CARDS;
+    */
